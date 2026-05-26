@@ -1046,8 +1046,8 @@ docker compose up --build
 ## Checklist SPEC-01
 
 ### Bloque A — Estructura de solución + carpetas base
-- [ ] TASK-01-A1 · Solución .NET con 4 proyectos src + 4 proyectos test, referencias y NuGet configurados
-- [ ] TASK-01-A2 · Carpetas base con `.gitkeep` en todos los proyectos + placeholders de test
+- [x] TASK-01-A1 · Solución .NET con 4 proyectos src + 4 proyectos test, referencias y NuGet configurados
+- [x] TASK-01-A2 · Carpetas base con `.gitkeep` en todos los proyectos + placeholders de test
 
 ### Bloque B — IDbConnectionFactory
 - [ ] TASK-01-B1 · Test `SqlConnectionFactory` (rojo)
