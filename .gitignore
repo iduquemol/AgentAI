@@ -1,0 +1,25 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.csproj.user
+
+# Secretos locales — NUNCA commitear
+.env
+.env.local
+.env.*.local
+src/ConversationalAgent.Api/appsettings.Development.json
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Herramientas del sistema
+.DS_Store
+Thumbs.db
