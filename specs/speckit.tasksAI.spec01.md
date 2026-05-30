@@ -1050,37 +1050,37 @@ docker compose up --build
 - [x] TASK-01-A2 · Carpetas base con `.gitkeep` en todos los proyectos + placeholders de test
 
 ### Bloque B — IDbConnectionFactory
-- [ ] TASK-01-B1 · Test `SqlConnectionFactory` (rojo)
-- [ ] TASK-01-B2 · Impl `IDbConnectionFactory` + `SqlConnectionFactory` (verde) — CA-10
+- [x] TASK-01-B1 · Test `SqlConnectionFactory` (rojo)
+- [x] TASK-01-B2 · Impl `IDbConnectionFactory` + `SqlConnectionFactory` (verde) — CA-10
 
 ### Bloque C — Migraciones DbUp
-- [ ] TASK-01-C1 · Test de integración con Testcontainers (rojo)
-- [ ] TASK-01-C2 · Scripts `001_initial_schema.sql` + `002_seed_admin.sql` como EmbeddedResource (verde) — CA-05, CA-06, CA-07, CA-08
+- [x] TASK-01-C1 · Test de integración con Testcontainers (rojo)
+- [x] TASK-01-C2 · Scripts `001_initial_schema.sql` + `002_seed_admin.sql` como EmbeddedResource (verde) — CA-05, CA-06, CA-07, CA-08
 
 ### Bloque D — Program.cs + Health Check
-- [ ] TASK-01-D1 · Test `GET /health` con `WebApplicationFactory` (rojo)
-- [ ] TASK-01-D2 · `Program.cs` con DbUp + DI + `app.MapHealthChecks` + `partial class Program` (verde) — CA-09
+- [x] TASK-01-D1 · Test `GET /health` con `WebApplicationFactory` (rojo)
+- [x] TASK-01-D2 · `Program.cs` con DbUp + DI + `app.MapHealthChecks` + `partial class Program` (verde) — CA-09
 
 ### Bloque E — Configuración y secretos
-- [ ] TASK-01-E1 · `appsettings.json` (con Redis + Guardrails) + `appsettings.Development.json` + `.gitignore` — CA-15
+- [x] TASK-01-E1 · `appsettings.json` (con Redis + Guardrails) + `appsettings.Development.json` + `.gitignore` — CA-15
 
 ### Bloque F — Docker Compose con Redis
-- [ ] TASK-01-F1 · Dockerfile del backend (multi-stage)
-- [ ] TASK-01-F2 · Dockerfile del frontend (multi-stage) + `nginx.conf` con proxy WS para SignalR
-- [ ] TASK-01-F3 · `docker-compose.yml` con servicios `api`, `frontend`, `redis` + `.env.example` — CA-13
+- [x] TASK-01-F1 · Dockerfile del backend (multi-stage)
+- [x] TASK-01-F2 · Dockerfile del frontend (multi-stage) + `nginx.conf` con proxy WS para SignalR
+- [x] TASK-01-F3 · `docker-compose.yml` con servicios `api`, `frontend`, `redis` + `.env.example` — CA-13
 
 ### Bloque G — Frontend React
-- [ ] TASK-01-G1 · Vite + React + TypeScript inicializado con strict mode
-- [ ] TASK-01-G2 · Tailwind CSS configurado con variables CSS de shadcn/ui
-- [ ] TASK-01-G3 · shadcn/ui inicializado + componente Button instalado
-- [ ] TASK-01-G4 · Carpetas base con `.gitkeep` + `lib/utils.ts` + `types/conversation.ts` + `hub/hubEvents.ts`
-- [ ] TASK-01-G5 · `vite.config.ts` con proxy `/api` y `/hubs` (WebSocket) + alias `@/`
-- [ ] TASK-01-G6 · `App.tsx` con texto "Agente Conversacional IA" y Button visible — CA-11, CA-12
+- [x] TASK-01-G1 · Vite + React + TypeScript inicializado con strict mode
+- [x] TASK-01-G2 · Tailwind CSS configurado con variables CSS de shadcn/ui
+- [x] TASK-01-G3 · shadcn/ui inicializado + componente Button instalado
+- [x] TASK-01-G4 · Carpetas base con `.gitkeep` + `lib/utils.ts` + `types/conversation.ts` + `hub/hubEvents.ts`
+- [x] TASK-01-G5 · `vite.config.ts` con proxy `/api` y `/hubs` (WebSocket) + alias `@/`
+- [x] TASK-01-G6 · `App.tsx` con texto "Agente Conversacional IA" y Button visible — CA-11, CA-12
 
 ### Bloque H — Verificación Final
-- [ ] TASK-01-H1 · `dotnet build` → 0 errores, 0 warnings — CA-01
-- [ ] TASK-01-H2 · Tests de Infrastructure pasan — CA-05, CA-06, CA-07, CA-08, CA-10
-- [ ] TASK-01-H3 · Tests de Api pasan — CA-09
-- [ ] TASK-01-H4 · Placeholders de Domain y Application pasan
-- [ ] TASK-01-H5 · `dotnet test` completo → todos pasan — CA-02
-- [ ] TASK-01-H6 · `docker compose up --build` → api + frontend + redis operativos — CA-03, CA-04, CA-13, CA-14, CA-15, CA-16
+- [x] TASK-01-H1 · `dotnet build` → 0 errores, 0 warnings — CA-01
+- [x] TASK-01-H2 · Tests de Infrastructure pasan — CA-05, CA-06, CA-07, CA-08, CA-10
+- [x] TASK-01-H3 · Tests de Api pasan — CA-09
+- [x] TASK-01-H4 · Placeholders de Domain y Application pasan
+- [x] TASK-01-H5 · `dotnet test` completo → todos pasan — CA-02
+- [x] TASK-01-H6 · `docker compose up --build` → api + frontend + redis operativos — CA-03, CA-04, CA-13, CA-14, CA-15, CA-16
